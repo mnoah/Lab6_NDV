@@ -10,6 +10,13 @@ namespace Lab6_NDV
     {
         static void Main(string[] args)
         {
+            String cont = "Scrap";
+
+            int start = 3;
+            
+            String substring = cont.Substring(start);
+
+            Console.WriteLine( substring + "ay");
         }
     }
 }
